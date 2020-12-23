@@ -7,3 +7,9 @@ use Illuminate\Support\Facades\Response as FacadesResponse;
 use Illuminate\Support\Facades\Route;
 
 
+
+Route::get('/test', function() {
+    return 'test';
+});
+
+
